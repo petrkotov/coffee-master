@@ -3394,3 +3394,93 @@ body.lightbox-open {
 	}
 }
 
+/* ===== точечный фикс fullscreen-галереи ===== */
+
+.product-lightbox {
+	padding: 64px 56px 36px;
+	background: rgba(0, 0, 0, 0.88);
+}
+
+.product-lightbox-stage {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: min(1200px, 88vw);
+	max-height: calc(100vh - 100px);
+	margin: 0 auto;
+}
+
+.product-lightbox-image {
+	display: block;
+	max-width: 100%;
+	max-height: calc(100vh - 100px);
+	width: auto;
+	height: auto;
+	object-fit: contain;
+	position: relative;
+	z-index: 1;
+	border-radius: 18px;
+	background: #fff;
+	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+.product-lightbox-close,
+.product-lightbox-nav,
+.product-lightbox-counter {
+	z-index: 5;
+}
+
+@media screen and (max-width: 736px) {
+	.product-lightbox {
+		padding: 56px 52px 24px;
+	}
+
+	.product-lightbox-stage {
+		max-width: 100%;
+		max-height: calc(100vh - 88px);
+	}
+
+	.product-lightbox-image {
+		max-width: 100%;
+		max-height: calc(100vh - 88px);
+		border-radius: 14px;
+	}
+
+	/* На мобиле кнопки лучше отвязать от картинки */
+	.product-lightbox-close,
+	.product-lightbox-nav {
+		position: fixed;
+		z-index: 10002;
+	}
+
+	.product-lightbox-close {
+		top: 10px;
+		right: 10px;
+		width: 42px !important;
+		height: 42px !important;
+		font-size: 1.6em;
+	}
+
+	.product-lightbox-nav {
+		top: 50%;
+		transform: translateY(-50%);
+		width: 38px;
+		height: 56px;
+		font-size: 1.6em;
+	}
+
+	.product-lightbox-prev {
+		left: 4px;
+	}
+
+	.product-lightbox-next {
+		right: 4px;
+	}
+
+	.product-lightbox-counter {
+		z-index: 10002;
+		bottom: 10px;
+	}
+}
