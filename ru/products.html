@@ -1,0 +1,594 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<title>Товары — КофеСервис</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="icon" type="../image/png" sizes="32x32" href="images/favicon32.png">
+	<link rel="icon" type="../image/png" sizes="16x16" href="images/favicon16.png">
+	<link rel="shortcut icon" href="../images/favicon.ico">
+</head>
+
+<body class="is-preload">
+	<div class="product-lightbox" id="product-lightbox" aria-hidden="true">
+		<button type="button" class="product-lightbox-close" aria-label="Закрыть галерею">&times;</button>
+
+		<button type="button" class="product-lightbox-nav product-lightbox-prev" aria-label="Предыдущее фото">
+			&#10094;
+		</button>
+
+		<div class="product-lightbox-stage">
+			<img src="" alt="" class="product-lightbox-image">
+			<div class="product-lightbox-counter"></div>
+		</div>
+
+		<button type="button" class="product-lightbox-nav product-lightbox-next" aria-label="Следующее фото">
+			&#10095;
+		</button>
+	</div>
+	<div id="page-wrapper">
+
+		<div id="header-wrapper">
+			<header id="header" class="container">
+				<div id="logo">
+					<h1><a href="index.html">Кофе-Мастер</a></h1>
+				</div>
+
+				<nav id="nav">
+								<ul>
+									<li><a href="index.html">Главная</a></li>
+									<li><a href="repair.html">Ремонт</a></li>
+									<li><a href="maintenance.html">Обслуживание</a></li>
+									<li class="current">
+										<a href="products.html">Товары</a>
+										<ul>
+											<li><a href="products.html#coffee-machines">Кофемашины</a></li>
+											<li><a href="products.html#coffee-equipment">Кофейное оборудование</a></li>
+											<li><a href="products.html#care">Химия и уход</a></li>
+											<li><a href="products.html#parts">Комплектующие</a></li>
+											<li><a href="products.html#accessories">Аксессуары</a></li>
+
+										</ul>
+									</li>
+									<li><a href="equipment-selection.html">Подбор оборудования</a></li>
+								</ul>
+							</nav>
+
+							<div class="lang-switch">
+								<a href="../products.html"lang="uk">UA</a>
+								<span>/</span>
+								<a href="products.html" class="current" lang="ru">RU</a>
+							</div>
+
+			</header>
+		</div>
+
+		<div id="main-wrapper">
+			<div class="container">
+
+				<section class="products-category" id="coffee-machines">
+					<header class="products-header">
+						<h2>Кофемашины</h2>
+						<p>Кофемашины для дома, офиса и небольших коммерческих задач.</p>
+					</header>
+
+					<div class="products-grid">
+						
+						<!-- Карточка с галереей -->
+					<!--	<article class="product-card">
+
+
+
+							<div class="product-media product-gallery" data-gallery-name="Delonghi Magnifica Elegance">
+								<img src="../images/products/delonghiME-01.jpg"
+									alt="Кофемашина Delonghi Magnifica Elegance, вид спереди"
+									class="product-main-image"
+									loading="lazy"
+									tabindex="0"
+									role="button"
+									aria-label="Открыть галерею">
+
+									<div class="product-thumbs">
+										<button type="button" class="product-thumb is-active" data-image="../images/products/delonghiME-01.jpg">
+											<img src="../images/products/delonghiME-01.jpg" alt="">
+										</button>
+
+										<button type="button" class="product-thumb" data-image="../images/products/delonghiME-02.jpg">
+											<img src="../images/products/delonghiME-02.jpg" alt="">
+										</button>
+
+										<button type="button" class="product-thumb" data-image="../images/products/delonghiME-03.jpg">
+											<img src="../images/products/delonghiME-03.jpg" alt="">
+										</button>
+
+										<button type="button" class="product-thumb" data-image="../images/products/delonghiME-04.jpg">
+											<img src="../images/products/delonghiME-04.jpg" alt="">
+										</button>
+									</div>
+							</div>
+
+
+
+
+
+							<div class="product-card-body">
+								<h3>Кофемашина Delonghi Magnifica Elegance</h3>
+								<p class="product-description">
+									В комплекте нет капучинатора, всё остальное в наличии. Проведены чистки от накипи и кофейных масел, обслужен заварочный блок, стоит новая помпа.
+								</p>
+								<a href="https://www.olx.ua/d/uk/obyavlenie/kofemasha-delonghi-magnifica-elegance-IDZyPon.html" target="_blank" rel="noopener noreferrer">Объявление на OLX</a>
+
+								<div class="phone-box phone-box-small icon solid fa-money-bill-wave">
+									Цена: 3500 грн.
+								</div>
+							</div>
+						</article> -->
+
+						<!-- <article class="product-card">
+							<div class="product-media">
+								<img src="images/products/product-01.jpg" alt="Кофемашина Nivona" class="product-main-image" loading="lazy">
+							</div>
+
+							<div class="product-card-body">
+								<h3>Кофемашина Nivona</h3>
+								<p>Автоматическая кофемашина для дома или небольшого офиса. Подходит для ежедневного использования.</p>
+								<p class="product-note">Цена и наличие уточняются по телефону.</p>
+
+								<a href="tel:+380671234567" class="phone-box phone-box-small icon solid fa-phone">
+									(067) 123-45-67
+								</a>
+							</div>
+						</article> -->
+
+						<!-- Карточка без изображений -->
+						<article class="product-card">
+							<div class="product-card-body">
+								<h3>Кофемашина под заказ</h3>
+								<p>Поможем подобрать и привезти подходящую модель под ваш бюджет, задачи и желаемый формат использования.</p>
+								<p class="product-note">Подбор и консультация по телефону.</p>
+
+								<a href="tel:+380963090827" class="phone-box phone-box-small icon solid fa-phone">
+									(096) 309-08-27
+								</a>
+							</div>
+						</article>
+
+					</div>
+				</section>
+
+				<section class="products-category" id="coffee-equipment">
+					<header class="products-header">
+						<h2>Кофейное оборудование</h2>
+						<p>Кофемолки, капучинаторы и другое оборудование для дома, офиса, кофейни или бизнеса.</p>
+					</header>
+
+					<div class="products-grid">
+						<article class="product-card">
+							<div class="product-media product-gallery" data-gallery-name="Obel Mito 64">
+								<img src="../images/products/ObelMito-01.jpg"
+									alt="Кавомолка Obel Mito 64, вид спереди"
+									class="product-main-image"
+									loading="lazy"
+									tabindex="0"
+									role="button"
+									aria-label="Открыть галерею">
+
+									<div class="product-thumbs">
+										<button type="button" class="product-thumb is-active" data-image="../images/products/ObelMito-01.jpg">
+											<img src="../images/products/ObelMito-01.jpg" alt="">
+										</button>
+
+										<button type="button" class="product-thumb" data-image="../images/products/ObelMito-02.jpg">
+											<img src="../images/products/ObelMito-02.jpg" alt="">
+										</button>
+
+										<button type="button" class="product-thumb" data-image="../images/products/ObelMito-03.jpg">
+											<img src="../images/products/ObelMito-03.jpg" alt="">
+										</button>
+
+										<button type="button" class="product-thumb" data-image="../images/products/ObelMito-04.jpg">
+											<img src="../images/products/ObelMito-04.jpg" alt="">
+										</button>
+									</div>
+							</div>
+							<div class="product-card-body">
+								<h3>Кофемолка Obel Mito 64</h3>
+								<p class="product-description">
+									Авто-кавомолка Obel Mito 64 2017 года, все работает. Комплектация полная родная+подкладка. В комплекте новый темпер (VD) 58+ коврик.
+								</p>
+								<a href="https://www.olx.ua/d/uk/obyavlenie/kofemolka-obel-mito-64-ID10kPjZ.html" target="_blank" rel="noopener noreferrer">Объявление на OLX</a>
+
+								<div class="phone-box phone-box-small icon solid fa-money-bill-wave">
+									Цена: 13000 грн.
+								</div>
+							</div>
+						</article>
+						<!-- Карточка с галереей -->
+					<!-- 	<article class="product-card">
+							<div class="product-media product-gallery">
+								<img src="images/products/delonghiME-01.jpg" alt="Кофемолка Eureka" class="product-main-image" loading="lazy">
+
+								<div class="product-thumbs">
+									<button type="button" class="product-thumb is-active" data-image="images/product-02-1.jpg">
+										<img src="images/products/delonghiME-02.jpg" alt="">
+									</button>
+									<button type="button" class="product-thumb" data-image="images/product-02-2.jpg">
+										<img src="images/products/delonghiME-03.jpg" alt="">
+									</button>
+									<button type="button" class="product-thumb" data-image="images/product-02-3.jpg">
+										<img src="images/products/delonghiME-04.jpg" alt="">
+									</button>
+								</div>
+							</div>
+
+							<div class="product-card-body">
+								<h3>Кофемашина Delonghi Magnifica Elegance</h3>
+								<p class="product-description">
+									В комплекте нет капучинатора, всё остальное в наличии. Проведены чистки от накипи и кофейных масел, обслужен заварочный блок, стоит новая помпа.
+								</p>
+
+								<div class="phone-box phone-box-small icon solid fa-money-bill-wave">
+									Цена: 3500 грн.
+								</div>
+							</div>
+						</article>
+
+						<article class="product-card">
+							<div class="product-media">
+								<img src="images/products/product-01.jpg" alt="Кофемашина Nivona" class="product-main-image" loading="lazy">
+							</div>
+
+							<div class="product-card-body">
+								<h3>Кофемашина Nivona</h3>
+								<p>Автоматическая кофемашина для дома или небольшого офиса. Подходит для ежедневного использования.</p>
+								<p class="product-note">Цена и наличие уточняются по телефону.</p>
+
+								<a href="tel:+380671234567" class="phone-box phone-box-small icon solid fa-phone">
+									(067) 123-45-67
+								</a>
+							</div>
+						</article>  -->
+
+						<!-- Карточка без изображений -->
+						<article class="product-card">
+							<div class="product-card-body">
+								<h3>Оборудование под заказ</h3>
+								<p>Поможем выбрать кофемолку, кофемашину и другое оборудование под ваш бюджет, формат работы, объём напитков и удобство дальнейшего обслуживания.</p>
+								<p class="product-note">Подбор и консультация по телефону.</p>
+
+								<a href="tel:+380963090827" class="phone-box phone-box-small icon solid fa-phone">
+									(096) 309-08-27
+								</a>
+							</div>
+						</article>
+
+					</div>
+				</section>
+
+				<section class="products-category" id="care">
+					<header class="products-header">
+						<h2>Химия и уход</h2>
+						<p>Средства для удаления накипи, очистки от кофейных масел, промывки молочной системы и регулярного ухода за кофемашинами и кофейным оборудованием.</p>
+					</header>
+
+					<div class="products-grid">
+						
+						<!-- Карточка с галереей -->
+						<article class="product-card">
+							<div class="product-media">
+								<img src="../images/products/chemistry-01.jpg" alt="Химия" class="product-main-image" loading="lazy">
+							</div>
+
+							<div class="product-card-body">
+								<h3>Средство от молочных жиров</h3>
+								<p>Щелочное средство от молочных жиров для стимеров, питчеров, панарелло и тд.</p>
+								<p>Объем: 200 мл.</p>
+
+								<div class="phone-box phone-box-small icon solid fa-money-bill-wave">
+									Цена: 300 грн.
+								</div>
+							</div>
+						</article> 
+
+						<article class="product-card">
+							<div class="product-media">
+								<img src="../images/products/chemistry-02.jpg" alt="Химия" class="product-main-image" loading="lazy">
+							</div>
+
+							<div class="product-card-body">
+								<h3>Средство от кофейных масел</h3>
+								<p>Профессиональный концентрат для чистки рабочей группы и холдеров от кофейных масел</p>
+								<p>Масса нетто: 200 гр.</p>
+
+								<div class="phone-box phone-box-small icon solid fa-money-bill-wave">
+									Цена: 300 грн.
+								</div>
+							</div>
+						</article> 
+
+						<article class="product-card">
+							<div class="product-media">
+								<img src="../images/products/chemistry-03.jpg" alt="Химия" class="product-main-image" loading="lazy">
+							</div>
+
+							<div class="product-card-body">
+								<h3>Средство для декальцинации</h3>
+								<p>Профессиональный концентрат для чистки кофемашины от накипи из нагревательных элементов кофеварок всех типов.</p>
+								<p>Масса нетто: 200 гр.</p>
+
+								<div class="phone-box phone-box-small icon solid fa-money-bill-wave">
+									Цена: 300 грн.
+								</div>
+							</div>
+						</article>
+
+
+						<!-- <article class="product-card">
+							<div class="product-media">
+								<img src="images/products/product-01.jpg" alt="Кофемашина Nivona" class="product-main-image" loading="lazy">
+							</div>
+
+							<div class="product-card-body">
+								<h3>Кофемашина Nivona</h3>
+								<p>Автоматическая кофемашина для дома или небольшого офиса. Подходит для ежедневного использования.</p>
+								<p class="product-note">Цена и наличие уточняются по телефону.</p>
+
+								<a href="tel:+380671234567" class="phone-box phone-box-small icon solid fa-phone">
+									(067) 123-45-67
+								</a>
+							</div>
+						</article> -->
+
+						<!-- Карточка без изображений -->
+						<article class="product-card">
+							<div class="product-card-body">
+								<h3>Химия под заказ</h3>
+								<p>Поможем подобрать средства от накипи, кофейных масел и для очистки молочной системы с учётом типа оборудования, частоты использования и особенностей ухода.</p>
+								<p class="product-note">Подбор и консультация по телефону.</p>
+
+								<a href="tel:+380963090827" class="phone-box phone-box-small icon solid fa-phone">
+									(096) 309-08-27
+								</a>
+							</div>
+						</article>
+
+					</div>
+				</section>
+
+				<section class="products-category" id="parts">
+					<header class="products-header">
+						<h2>Комплектующие</h2>
+						<p>Запчасти, рабочие узлы и сопутствующие комплектующие для ремонта, замены и обслуживания кофемашин.</p>
+					</header>
+
+					<div class="products-grid">
+						
+						<!-- Карточка с галереей -->
+					<!--	<article class="product-card">
+							<div class="product-media product-gallery">
+								<img src="images/products/delonghiME-01.jpg" alt="Кофемолка Eureka" class="product-main-image" loading="lazy">
+
+								<div class="product-thumbs">
+									<button type="button" class="product-thumb is-active" data-image="images/product-02-1.jpg">
+										<img src="images/products/delonghiME-02.jpg" alt="">
+									</button>
+									<button type="button" class="product-thumb" data-image="images/product-02-2.jpg">
+										<img src="images/products/delonghiME-03.jpg" alt="">
+									</button>
+									<button type="button" class="product-thumb" data-image="images/product-02-3.jpg">
+										<img src="images/products/delonghiME-04.jpg" alt="">
+									</button>
+								</div>
+							</div>
+
+							<div class="product-card-body">
+								<h3>Кофемашина Delonghi Magnifica Elegance</h3>
+								<p class="product-description">
+									В комплекте нет капучинатора, всё остальное в наличии. Проведены чистки от накипи и кофейных масел, обслужен заварочный блок, стоит новая помпа.
+								</p>
+
+								<div class="phone-box phone-box-small icon solid fa-money-bill-wave">
+									Цена: 3500 грн.
+								</div>
+							</div>
+						</article> -->
+
+						<!-- <article class="product-card">
+							<div class="product-media">
+								<img src="images/products/product-01.jpg" alt="Кофемашина Nivona" class="product-main-image" loading="lazy">
+							</div>
+
+							<div class="product-card-body">
+								<h3>Кофемашина Nivona</h3>
+								<p>Автоматическая кофемашина для дома или небольшого офиса. Подходит для ежедневного использования.</p>
+								<p class="product-note">Цена и наличие уточняются по телефону.</p>
+
+								<a href="tel:+380671234567" class="phone-box phone-box-small icon solid fa-phone">
+									(067) 123-45-67
+								</a>
+							</div>
+						</article> -->
+
+						<!-- Карточка без изображений -->
+						<article class="product-card">
+							<div class="product-card-body">
+								<h3>Комплектующие под заказ</h3>
+								<p>Поможем подобрать запчасти, периферийные элементы и фурнитуру для кофемашины с учётом модели, неисправности и совместимости деталей.</p>
+								<p class="product-note">Подбор и консультация по телефону.</p>
+
+								<a href="tel:+380963090827" class="phone-box phone-box-small icon solid fa-phone">
+									(096) 309-08-27
+								</a>
+							</div>
+						</article>
+
+					</div>
+				</section>
+
+				<section class="products-category" id="accessories">
+					<header class="products-header">
+						<h2>Аксессуары</h2>
+						<p>Тамперы, нок-боксы, питчеры и другие аксессуары для удобной и аккуратной работы с кофе.</p>
+					</header>
+
+					<div class="products-grid">
+						
+						<!-- Карточка с галереей -->
+					<!--	<article class="product-card">
+
+
+
+							<div class="product-media product-gallery" data-gallery-name="Delonghi Magnifica Elegance">
+								<img
+									src="images/products/delonghiME-01.jpg"
+									alt="Кофемашина Delonghi Magnifica Elegance, вид спереди"
+									class="product-main-image"
+									loading="lazy"
+									tabindex="0"
+									role="button"
+									aria-label="Открыть галерею">
+
+								<div class="product-thumbs">
+									<button type="button" class="product-thumb" data-image="images/products/delonghiME-02.jpg" aria-label="Показать фото 2">
+										<img src="images/products/delonghiME-02.jpg" alt="Кофемашина Delonghi Magnifica Elegance, вид сзади">
+									</button>
+
+									<button type="button" class="product-thumb" data-image="images/products/delonghiME-03.jpg" aria-label="Показать фото 3">
+										<img src="images/products/delonghiME-03.jpg" alt="Кофемашина Delonghi Magnifica Elegance, вид сбоку">
+									</button>
+
+									<button type="button" class="product-thumb" data-image="images/products/delonghiME-04.jpg" aria-label="Показать фото 4">
+										<img src="images/products/delonghiME-04.jpg" alt="Кофемашина Delonghi Magnifica Elegance, другой ракурс">
+									</button>
+								</div>
+							</div>
+
+
+
+
+
+							<div class="product-card-body">
+								<h3>Кофемашина Delonghi Magnifica Elegance</h3>
+								<p class="product-description">
+									В комплекте нет капучинатора, всё остальное в наличии. Проведены чистки от накипи и кофейных масел, обслужен заварочный блок, стоит новая помпа.
+								</p>
+
+								<div class="phone-box phone-box-small icon solid fa-money-bill-wave">
+									Цена: 3500 грн.
+								</div>
+							</div>
+						</article> -->
+
+						<!-- <article class="product-card">
+							<div class="product-media">
+								<img src="images/products/product-01.jpg" alt="Кофемашина Nivona" class="product-main-image" loading="lazy">
+							</div>
+
+							<div class="product-card-body">
+								<h3>Кофемашина Nivona</h3>
+								<p>Автоматическая кофемашина для дома или небольшого офиса. Подходит для ежедневного использования.</p>
+								<p class="product-note">Цена и наличие уточняются по телефону.</p>
+
+								<a href="tel:+380671234567" class="phone-box phone-box-small icon solid fa-phone">
+									(067) 123-45-67
+								</a>
+							</div>
+						</article> -->
+
+						<!-- Карточка без изображений -->
+						<article class="product-card">
+							<div class="product-card-body">
+								<h3>Аксессуары под заказ</h3>
+								<p>Поможем подобрать тампер, нок-бокс, питчер и другие аксессуары под ваш формат приготовления, привычки в работе и удобство ежедневного использования.</p>
+								<p class="product-note">Подбор и консультация по телефону.</p>
+
+								<a href="tel:+380963090827" class="phone-box phone-box-small icon solid fa-phone">
+									(096) 309-08-27
+								</a>
+							</div>
+						</article>
+
+					</div>
+				</section>
+
+
+			</div>
+		</div>
+
+		<div id="footer-wrapper">
+			<footer id="footer" class="container">
+						<div class="row aln-center">
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget links">
+										<h3>Услуги</h3>
+										<ul class="style2">
+											<li><a href="repair.html">Ремонт</a></li>
+											<li><a href="maintenance.html">Обслуживание</a></li>
+											<li><a href="equipment-selection.html">Подбор оборудования</a></li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Links -->
+									<section class="widget links">
+										<h3>Товары</h3>
+										<ul class="style2">
+											<li><a href="products.html#coffee-machines">Кофемашины</a></li>
+											<li><a href="products.html#coffee-equipment">Кофейное оборудование</a></li>
+											<li><a href="products.html#care">Химия и уход</a></li>
+											<li><a href="products.html#parts">Комплектующие</a></li>
+											<li><a href="products.html#accessories">Аксессуары</a></li>
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Contact -->
+									<section id="contacts" class="widget contact last">
+										<h3>Связь с нами</h3>
+										<ul>
+											<li><a href="https://www.instagram.com/mr.belenkiy/" target="_blank" rel="noopener noreferrer" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="https://t.me/cesarelamar" target="_blank" rel="noopener noreferrer" class="icon brands fa-telegram-plane"><span class="label">Telegram</span></a></li>
+											<li><a href="viber://chat?number=%2B380963090827" target="_blank" rel="noopener noreferrer" class="icon brands fa-viber"><span class="label">Viber</span></a></li>
+											<li>
+												<a href="https://www.olx.ua/uk/list/user/16Bz6R/" class="icon custom-icon olx-icon" target="_blank" rel="noopener noreferrer" aria-label="OLX">
+													<img src="../images/olx-logo.svg" alt="OLX">
+													<span class="label">OLX</span>
+												</a>
+											</li>
+										</ul>
+										<p>Харьков<br />
+										(096) 309-08-27<br />
+										Пн–Пт: 09:00–18:00</p>
+									</section>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; КофеСервис. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+		</div>
+
+	</div>
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/jquery.dropotron.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+	<script src="../assets/js/products.js"></script>
+</body>
+</html>
